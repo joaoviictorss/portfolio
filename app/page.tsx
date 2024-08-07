@@ -20,15 +20,17 @@ export default function Home() {
                 Um pouco sobre mim
               </h3>
               <p className="mt-6 font-normal text-xl">
-                Olá, eu sou João Victor, um estudante de engenharia da
-                computação,atualmente no 6° semestre, tenho 20 anos e um
-                entusiaste de tecnologia, games e livros.
+                Cursando Engenharia da computação pela USJT, atualmente no sexto
+                semestre. Possuo experiência e habilidades em desenvolvimento
+                web, utilizando tecnologias como JavaScript, TypeScript, React e
+                Next.js. Busco minha primeira experiência profissional na área
+                de tecnologia, ansioso para aplicar e expandir minhas
+                habilidades em um ambiente dinâmico e desafiador.
               </p>
               <p className="text-xl">
-                Graduando engenharia da computação na USJT, focado em
-                desenvolvimento web, meu objetivo final é construir uma carreira
-                de sucesso, buscando uma vida estável e feliz fazendo o que amo
-                que é codar.
+                Focando meus estudos em desenvolvimento web, meu objetivo final
+                é construir uma carreira de sucesso, trabalhando na area de eu
+                amo.
               </p>
             </div>
 

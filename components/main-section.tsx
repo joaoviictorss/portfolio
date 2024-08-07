@@ -58,7 +58,7 @@ const MainSection = () => {
               </a>
             </div>
             <div className="w-36 h-12 bg-blue-500 text-white rounded-lg items-center justify-center flex">
-              <a href="#">Me contate</a>
+            <a download href="/curriculo">Baixar currículo</a>
             </div>
           </div>
           <div className="hidden md:block lg:w-full md:w-1/2 ">
