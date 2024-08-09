@@ -17,7 +17,7 @@ const Header = () => {
     { title: "Sobre mim", link_to: "about" },
     { title: "Projetos", link_to: "projects" },
     { title: "Contato", link_to: "contact" },
-  ];
+  ]
 
   return (
     <header className="shadow-sm fixed w-full top-0 z-10 bg-white dark:bg-gray-600">
@@ -33,7 +33,7 @@ const Header = () => {
               }
             >
               {navItems.map((item) => (
-                <HeaderItem title={item.title} link_to={item.link_to} />
+                <HeaderItem title={item.title} link_to={item.link_to} key={item.title} />
               ))}
             </nav>
             <button
