@@ -12,6 +12,13 @@ const Header = () => {
   const { theme, setTheme } = useTheme();
   const [openNav, setOpenNav] = useState(false);
 
+  const navItems = [
+    { title: "Home", link_to: "home" },
+    { title: "Sobre mim", link_to: "about" },
+    { title: "Projetos", link_to: "projects" },
+    { title: "Contato", link_to: "contact" },
+  ];
+
   return (
     <header className="shadow-sm fixed w-full top-0 z-10 bg-white dark:bg-gray-600">
       <Container>
@@ -25,11 +32,9 @@ const Header = () => {
                   : "md:flex-row md:static md:p-0 absolute top-20 dark:bg-gray-800 md:dark:bg-transparent bg-white items-center justify-center gap-4 rounded-lg p-2 flex-col hidden md:flex"
               }
             >
-              {/* "md:flex-row md:static md:p-0 absolute top-20 dark:bg-gray-800 md:dark:bg-transparent bg-white items-center justify-center gap-4 rounded-lg p-2 flex flex-col " */}
-              <HeaderItem title="Home" link_to="home" />
-              <HeaderItem title="Sobre mim" link_to="about" />
-              <HeaderItem title="Projetos" link_to="projects" />
-              <HeaderItem title="Contato" link_to="contact" />
+              {navItems.map((item) => (
+                <HeaderItem title={item.title} link_to={item.link_to} />
+              ))}
             </nav>
             <button
               onClick={() =>

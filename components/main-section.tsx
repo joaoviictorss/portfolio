@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Link } from "react-scroll";
 import TypeWriter from "./ui/type-writer";
 import Container from "./ui/container";
+import { motion } from "framer-motion";
 
 const MainSection = () => {
   return (
@@ -57,18 +58,25 @@ const MainSection = () => {
                 />
               </a>
             </div>
-            <div className="w-36 h-12 bg-blue-500 text-white rounded-lg items-center justify-center flex">
-            <a download href="/curriculo">Baixar currículo</a>
+            <div className="w-36 h-12 bg-blue-500 text-white rounded-lg items-center justify-center flex hover:brightness-110 duration-200 transition">
+              <a download href="/curriculo.pdf">
+                Baixar currículo
+              </a>
             </div>
           </div>
-          <div className="hidden md:block lg:w-full md:w-1/2 ">
+          <motion.div
+            initial={{ y: 100 }}
+            animate={{ y: 0, transition: { type: "spring" } }}
+            exit={{ y: 200, transition: { type: "spring" } }}
+            className="hidden md:block lg:w-full md:w-1/2 "
+          >
             <Image
               src={"/svg/main-frame.svg"}
               alt="main-frame"
               width={1000}
               height={1000}
             />
-          </div>
+          </motion.div>
         </div>
       </Container>
       <div className="cursor-pointer absolute bottom-10 right-1/2 translate-x-1/2">
