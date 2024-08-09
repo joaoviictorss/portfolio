@@ -11,7 +11,7 @@ export const projects: Project[] = [
       "Prisma",
       "Supabase",
       "TypeScript",
-      "TailwindCSS",
+      "Tailwind",
     ],
     url: "https://ecommerce-admin-commercecontrol.vercel.app/",
     github_url: "https://github.com/joaoviictorss/ecommerce-admin",
@@ -21,7 +21,7 @@ export const projects: Project[] = [
     name: "Ecommerce store",
     description:
       "Utiliza os dados criados pelo E-commerce Admin para criar uma loja virtual completa, permitindo aos clientes navegar, selecionar e comprar produtos de forma fácil e segura.",
-    stacks: ["React", "Next.js", "TypeScript", "Stripe", "TailwindCSS"],
+    stacks: ["React", "Next.js", "TypeScript", "Stripe", "Tailwind"],
     url: "https://eccomerce-store-commerceshow.vercel.app/",
     github_url: "https://github.com/joaoviictorss/ecommerce-store",
     image_url: "/projects-images/ecommerce-store.png",
@@ -30,13 +30,7 @@ export const projects: Project[] = [
     name: "Finance App",
     description:
       "Aplicativo de controle de finanças permite aos usuários monitorar suas finanças em tempo real e cadastrar novas transações com facilidade.",
-    stacks: [
-      "React Native",
-      "Supabase",
-      "TypeScript",
-      "Expo router",
-      "NativeWind",
-    ],
+    stacks: ["React Native", "Supabase", "TypeScript", "Expo", "Tailwind"],
     url: "",
     github_url: "https://github.com/joaoviictorss/finance-app",
     image_url: "/projects-images/finance-app.png",
@@ -44,7 +38,7 @@ export const projects: Project[] = [
   {
     name: "Book Wise",
     description:
-      "Este é um desafio proposto pela Rocketseat, uma plataforma onde você pode fazer avaliações de livros e conferir as opiniões de outros leitores!",
+      "Plataforma onde de avaliações de livros e conferir as opiniões de outros leitores. Apresenta sistema de login e oAuth com suporte a Google e Github.",
     stacks: [
       "React",
       "Next.js",
@@ -58,19 +52,19 @@ export const projects: Project[] = [
     image_url: "/projects-images/book-wise.png",
   },
   {
-    name: "Password Generator App",
+    name: "Note Mark",
     description:
-      "Este é um aplicativo de Gerador de Senhas desenvolvido com React Native. O aplicativo permite que os usuários gerem senhas seguras e personalizadas de acordo com suas preferências.",
-    stacks: ["React Native", "Expo router", "TypeScript"],
+      "Aplicação desktop criada com Electron, React e Typescript, para gerenciar anotações em markdown.",
+    stacks: ["Electron", "React", "Typescript"],
     url: "",
-    github_url: "https://github.com/joaoviictorss/password-generator-app",
-    image_url: "/projects-images/password-generator.jpeg",
+    github_url: "https://github.com/joaoviictorss/note-mark",
+    image_url: "/projects-images/note-mark.png",
   },
   {
     name: "Plann.er",
     description:
-      "Este projeto foi desenvolvido durante o evento NLW Journey da Rocketseat. É um site desktop para montar planos de viagem com amigos, registrar atividades e armazenar links úteis.",
-    stacks: ["React", "TypeScript", "TailwindCSS"],
+      "Site desktop para montar planos de viagem com amigos, registrar atividades e armazenar links úteis.",
+    stacks: ["React", "TypeScript", "Tailwind"],
     url: "",
     github_url: "https://github.com/joaoviictorss/plann.er",
     image_url: "/projects-images/planner.png",
@@ -97,16 +91,16 @@ export const projects: Project[] = [
     name: "Flappy Bird",
     description:
       "O bom e velho Flappy Bird, criado utilizando apenas HTML, CSS e JavaScript",
-    stacks: ["HTML-CSS-JS"],
+    stacks: ["Javascript"],
     url: "https://joaoviictorss.github.io/Flappy-Bird/",
     github_url: "https://github.com/joaoviictorss/Flappy-Bird",
     image_url: "/projects-images/flappy-bird.png",
   },
   {
-    name: "NLW - Pass in Web",
+    name: "Pass in Web",
     description:
-      "A aplicação Nlw é um projeto desenvolvido durante a Next Level Week, um evento da Rocketseat, onde o objetivo é criar uma aplicação de verificação de convidados para eventos.",
-    stacks: ["React", "TypeScript", "TailwindCSS"],
+      "A aplicação de verificação de convidados para eventos, apresenta listagem aprimorada com url states e paginação.",
+    stacks: ["React", "TypeScript", "Tailwind"],
     url: "https://github.com/joaoviictorss/NLW-pass-in-web",
     github_url: "ttps://github.com/joaoviictorss/NLW-pass-in-web",
     image_url: "/projects-images/pass-in-web.png",
