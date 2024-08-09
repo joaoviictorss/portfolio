@@ -55,7 +55,7 @@ export const projects: Project[] = [
     name: "Note Mark",
     description:
       "Aplicação desktop criada com Electron, React e Typescript, para gerenciar anotações em markdown.",
-    stacks: ["Electron", "React", "Typescript"],
+    stacks: ["Electron", "React", "TypeScript"],
     url: "",
     github_url: "https://github.com/joaoviictorss/note-mark",
     image_url: "/projects-images/note-mark.png",
@@ -82,7 +82,7 @@ export const projects: Project[] = [
     name: "Pet Web App",
     description:
       "aplicação web dedicado à adoção responsável de animais de estimação. Este aplicativo foi criado para ajudar tutores de animais de estimação em potencial a encontrar e adotar animais de estimação.",
-    stacks: ["React", "JavaScript", "Firebase"],
+    stacks: ["React", "Javascript", "Firebase"],
     url: "https://pet-web-app-two.vercel.app/",
     github_url: "https://github.com/joaoviictorss/pet-web-app",
     image_url: "/projects-images/pet-web-app-img.png",
